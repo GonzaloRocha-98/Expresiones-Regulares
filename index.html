@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expresiones Regulares</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">  
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <a href="" class="navbar-brand"> Expresiones Regulares</a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row pt-5 justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Escribir texto</h5>
+                    </div>
+                    <div class="card-body">
+                        <textarea id="texto" cols="70" rows="10" class="form-control"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class='col-md-4'>
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Escribir palabra a buscar</h5>
+                    </div>
+                        <form action="" id='buscar' class="card-body">
+                            <div class="form-group">
+                                <input id="palabra" type="text" placeholder="Ingrese palabra" class="form-control">
+                            </div>
+                            <div class="form-group mt-2">
+                                <input  type="submit" class="btn-primary w-100" value="Enviar">
+                            </div>
+                        </form>
+                </div>
+                <div class="card mt-3">
+                   <div id="coincidencias" class="card-body">
+
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="app.js"></script>
+
+</html>
